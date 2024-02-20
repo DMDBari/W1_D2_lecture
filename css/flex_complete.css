@@ -7,11 +7,12 @@
     flex-wrap: wrap;
     /* flex-flow: row wrap;  */
     /*flex-flow is flex-direction + flex-wrap*/
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
+    /* align-content: is used to align the containers when it is overflowing with wrap on */
 }
 
-/* Set all flex-items to have a flex-grow = 1 */
+/* Set all flex-items to have a flex-grow = 1*/
 .container-1 > img {
     flex-grow: 1;
 }
@@ -37,6 +38,6 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    /* align-content: space-evenly; */
+    align-content: space-evenly;
     column-gap: 20px;
 }
